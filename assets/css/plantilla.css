@@ -1,0 +1,24 @@
+/*----------------------------------------
+    Custom
+------------------------------------------*/
+@font-face {
+  font-family: 'Acme';font-style: normal;font-weight: 400;
+  src: local('Acme Regular'), local('Acme-Regular'), url(Acme.woff2) format('woff2');
+}
+
+.s {
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+}
+
+.b {color: black;font-family: 'Acme', sans-serif}
+
+body {
+    font: 12px/1.4em "Acme", Helvetica, Futura, sans-serif;
+    background: #ecf5fb;
+    color: #000;
+}
+
+@media (max-width: 800px){
+    .minw{min-width: 280px;}
+}
